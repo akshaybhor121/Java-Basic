@@ -6,5 +6,5 @@ Topics:
 4 Type Convertion 
 5.Airthmatic operation
 6.Conditional Statement
-6.Looping Statement (for,while,do-while loop)
+7.Looping Statement (for,while,do-while loop)
                 
