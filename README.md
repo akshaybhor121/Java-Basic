@@ -5,4 +5,6 @@ Topics:
 3.Scanner Class
 4 Type Convertion 
 5.Airthmatic operation
-6.Looping Statement
+6.Conditional Statement
+6.Looping Statement (for,while,do-while loop)
+                
