@@ -33,6 +33,7 @@ public class Oprators
        var c =100;
         var d += 100;
        System.out.println(c);
+        System.out.println(d);
 
 
     }
