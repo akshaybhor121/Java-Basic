@@ -31,6 +31,7 @@ public class Oprators
        // Assignment Operator
        System.out.println("Assignment Operator");
        var c =100;
+        var d += 100;
        System.out.println(c);
 
 
