@@ -14,7 +14,7 @@ public class Oprators
         System.out.println("Modules:"+(a%b));
 
         //Realtional Operator
-        System.out.println("Relational oprator");
+        System.out.println("Relational operator");
         System.out.println(a==b);
         System.out.println(a!=b);
         System.out.println(a>b);
@@ -31,7 +31,9 @@ public class Oprators
        // Assignment Operator
        System.out.println("Assignment Operator");
        var c =100;
+        var d += 100;
        System.out.println(c);
+        System.out.println(d);
 
 
     }
