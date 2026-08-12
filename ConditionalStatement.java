@@ -3,8 +3,8 @@ public class ConditionalStatement
 {
     public static void main(String [] args)
     {
-       //IF STATEMENT 
-       System.out.println("IF STATEMENT :");
+       //IF-ELSE STATEMENT 
+       System.out.println("IF-ELSE STATEMENT :");
 
        Scanner sc = new Scanner(System.in);
 
@@ -33,9 +33,28 @@ public class ConditionalStatement
         System.out.println("ODD NO:"+NO);
 
        }
+       //IF- ELSEIF STATEMENT 
+       System.out.println("IF-ELSEIF STATEMENT :");
+       System.out.println("Enter your income :");
+       double income = sc.nextDouble();
+       double tax;
 
+       if(income <= 500000)
+       {
+        System.out.println("0 Tax");
 
+       }
+       else if(income>500000 && income <= 1000000)
+       {
+        tax= income * 0.2;
+        System.out.println("Tax is:"+tax);
 
+       }
+       else
+       {
+        tax = income * 0.3;
+        System.err.println("Tax is :"+tax);
+       }
 
     }
 }
