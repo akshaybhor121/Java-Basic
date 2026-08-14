@@ -12,6 +12,9 @@ public class Forloop
             {
                  System.out.println("***");
             }
-        
+        for(int k = 0; k<4; k++)
+            {
+                 System.out.println("*");
+            }
     }
 }
