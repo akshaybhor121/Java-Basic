@@ -12,7 +12,7 @@ public class Forloop
             {
                  System.out.println("***");
             }
-        for(int k = 0; k<5; k++)
+        for(int k = 0; k<10; k++)
             {
                  System.out.println("*");
             }
