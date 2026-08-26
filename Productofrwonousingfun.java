@@ -8,6 +8,7 @@ public class Productofrwonousingfun {
         int b = sc.nextInt();
         int mul=producte(a,b);
         System.out.println("Product of two No is :"+mul);
+        sc.close();
 
     }
 
