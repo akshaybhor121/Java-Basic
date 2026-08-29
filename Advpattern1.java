@@ -13,6 +13,7 @@ public class Advpattern1
                 a++;
             }
             System.out.println(" ");
+            System.out.println(" ");
         }
     }
 }
