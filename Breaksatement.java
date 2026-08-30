@@ -6,9 +6,10 @@ public class Breaksatement
         Scanner sc = new Scanner(System.in);
 
         do {
+            int i = 10 ;
             System.out.println(" Enter your a number:");
             int n = sc.nextInt();
-            if(n%10==0)
+            if(n%30==0)
             {
                 break;
             }

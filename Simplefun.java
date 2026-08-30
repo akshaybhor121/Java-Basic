@@ -1,9 +1,9 @@
 import java.util.*;
 public class Simplefun {
 
-    public static void calsum(int num1,int num2)
+    public static void calsum(int a,int b)
     {
-        int sum = num1+num2;
+        int sum = a+b;
         System.out.println("SUM :"+sum);
     }
     public static void main(String [] args)

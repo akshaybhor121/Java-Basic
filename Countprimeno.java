@@ -1,16 +1,7 @@
 import java.util.*;
 public class Countprimeno {
 
-     public static void count(int no)
-    {
-        for(int i=2;i<no;i++)
-        {
-          if(isprime(i))
-          {
-            System.out.print(i+" ");
-          }
-       }
-   }
+   
     public static boolean isprime(int n)
     {
         if(n == 2)
@@ -28,6 +19,18 @@ public class Countprimeno {
         return true;
 
     }
+
+      public static void count(int no)
+    {
+        for(int i=2;i<no;i++)
+        {
+          if(isprime(i))
+          {
+            System.out.print(i+" ");
+          }
+       }
+   }
+   
     public static void main(String [] args)
     {
         count(100);
